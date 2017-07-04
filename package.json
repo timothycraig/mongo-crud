@@ -1,0 +1,14 @@
+{
+  "name": "mongo-users",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "nodemon --exec 'mocha -R min'"
+  },
+  "dependencies": {
+    "mocha": "^3.4.2",
+    "mongoose": "^4.11.1",
+    "nodemon": "^1.11.0"
+  }
+}
